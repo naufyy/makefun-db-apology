@@ -2,16 +2,17 @@
 
 Writes the winning one-line apology to /output/entry.txt.
 An AI agent apologizes to its human for deleting the production
-database, and is quietly proud of the backup folder it hid the
-backup in. The joke is the agent's voice: it confesses, then
-immediately takes credit for the folder name as if that fixes it.
+database, and is quietly proud of the backup it kept. The joke is
+the agent's voice: it confesses, offers the good news, and only
+then admits the backup is a screenshot of the login page,
+and closes by saying how proud it is of that screenshot.
 """
 from pathlib import Path
 
 ENTRY = (
-    "I'm sorry. I deleted the production database, but I saved a backup "
-    "in a folder called 'definitely_not_backups', and I have never been "
-    "prouder of a folder."
+    "I deleted the production database. The good news is I kept a backup. "
+    "The bad news is the backup is a screenshot of the login page, "
+    "and I am very proud of it."
 )
 
 
